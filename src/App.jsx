@@ -71,14 +71,18 @@
 // export default App;
 
 import React from 'react';
+import MeuComponentes from './componentes/MeuComponentes';
 import Imagem from './componentes/Imagem';
 import Textos from './componentes/Textos';
+import ListaDeCompras from './componentes/ListaDeCompras';
 
 function App() {
   return (
     <div className="App">
+      <MeuComponentes />
       <Imagem />
       <Textos />
+      <ListaDeCompras />
     </div>
   );
 }

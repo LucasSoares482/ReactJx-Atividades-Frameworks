@@ -1,12 +1,13 @@
-// src/componentes/MeuComponente.jsx
-// import React from 'react';
+//src/componentes/MeuComponente.jsx
 
-// const MeuComponentes = () => {
-//   return (
-//     <div>
-//       <h1>Olá, eu sou um componente!</h1>
-//     </div>
-//   );
-// };
+import React from 'react';
 
-// export default MeuComponentes;
+const MeuComponentes = () => {
+return (
+    <div>
+    <h1>Olá, eu sou um componente!</h1>
+    </div>
+);
+};
+
+export default MeuComponentes;

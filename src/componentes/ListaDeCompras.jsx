@@ -1,19 +1,20 @@
-// // src/componentes/ListaDeCompras.jsx
-// import React from 'react';
+// src/componentes/ListaDeCompras.jsx
 
-// const ListaDeCompras = () => {
-//   const itens = ['Maçãs', 'Bananas', 'Leite', 'Pão'];
+ import React from 'react';
 
-//   return (
-//     <div>
-//       <h2>Lista de Compras</h2>
-//       <ul>
-//         {itens.map((item, index) => (
-//           <li key={index}>{item}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
+ const ListaDeCompras = () => {
+   const itens = ['Maçãs', 'Bananas', 'Leite', 'Pão'];
 
-// export default ListaDeCompras;
+   return (
+     <div>
+       <h2>Lista de Compras</h2>
+       <ul>
+         {itens.map((item, index) => (
+           <li key={index}>{item}</li>
+         ))}
+       </ul>
+     </div>
+   );
+ };
+
+ export default ListaDeCompras;
