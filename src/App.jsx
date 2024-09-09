@@ -70,19 +70,21 @@
 
 // export default App;
 
-import React from 'react';
+import React, { useState } from 'react';
 import MeuComponentes from './componentes/MeuComponentes';
 import Imagem from './componentes/Imagem';
 import Textos from './componentes/Textos';
 import ListaDeCompras from './componentes/ListaDeCompras';
-
+import Contador from './componentes/Contador';
 function App() {
   return (
     <div className="App">
+      <h1>Titulo</h1>
       <MeuComponentes />
       <Imagem />
       <Textos />
       <ListaDeCompras />
+      <Contador/>
     </div>
   );
 }
