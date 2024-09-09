@@ -12,8 +12,13 @@ import Contador from './componentes/Contador';
 import ContadorNegativo from './componentes/ContadorNegativo';
 import ToggleButton from './componentes/ToggleButton';
 import UserInfo from './componentes/UserInfo';
+import Saudacao from './componentes/Saudacao';
   function App() {
     const [count, setCount] = useState(0);
+    const [nome,setNome]=useState('');
+    const handleChange=(event)=>{
+      setNome(event.target.value);
+    };
 
     return (
       <>
@@ -45,7 +50,9 @@ import UserInfo from './componentes/UserInfo';
         <ToggleButton/>
         <h1>informações do usuario</h1>
         <UserInfo/>
-        
+        <Saudacao/>
+        <input type="text" name="" value={nome} onChange={handleChange} placeholder='Digite seu nome' id="" />
+        <Saudacao nome={nome}/>
         </div>
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
