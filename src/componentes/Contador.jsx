@@ -6,7 +6,7 @@ function Contador() {
 
   return (
     <div>
-      <h1>Contador: {conta}</h1>
+      <h1>Contador-negativo: {conta}</h1>
       <h2>{conta}</h2>
       <button onClick={() => setConta(conta + 1)}>Incrementar</button>
     </div>

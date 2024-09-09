@@ -10,7 +10,8 @@ import Textos from './componentes/Textos';
 import ListaDeCompras from './componentes/ListaDeCompras';
 import Contador from './componentes/Contador';
 import ContadorNegativo from './componentes/ContadorNegativo';
-
+import ToggleButton from './componentes/ToggleButton';
+import UserInfo from './componentes/UserInfo';
   function App() {
     const [count, setCount] = useState(0);
 
@@ -41,6 +42,10 @@ import ContadorNegativo from './componentes/ContadorNegativo';
         <ListaDeCompras />
         <Contador/>
         <ContadorNegativo/>
+        <ToggleButton/>
+        <h1>informações do usuario</h1>
+        <UserInfo/>
+        
         </div>
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
